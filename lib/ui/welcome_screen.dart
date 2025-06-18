@@ -133,7 +133,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                             onPressed: (){},
                             style: ElevatedButton.styleFrom(
                               fixedSize: Size(160, 40), // Increase width
-                              primary: Colors.deepOrange,
+                              backgroundColor: Colors.deepOrange,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15), // Add border radius
                               ),// Set background color
@@ -150,7 +150,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                             },
                             style: ElevatedButton.styleFrom(
                               fixedSize: Size(160, 40), // Increase width
-                              primary: Colors.deepOrange,
+                              backgroundColor: Colors.deepOrange,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15), // Add border radius
                               ),// Set background color
